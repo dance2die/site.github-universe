@@ -25,28 +25,24 @@ const svgs = {
 };
 
 function Sponsors() {
-  return (
-    <section className="bg-surface text-on-surface mt-12 mx-4">
-      <h3 className="text-center text-2xl mb-6">Thank you to our sponsors</h3>
+	return (
+		<section className="bg-surface text-on-surface mt-12 mx-4">
+			<h3 className="text-center text-2xl mb-6">Thank you to our sponsors</h3>
 
-      <ul className="flex flex-wrap justify-center items-center list-none">
-        {Object.entries(svgs).map(([alt, src]) => (
-          <li key={alt} className="w-[calc(50%-16px)] mb-[32px]">
-            <a
-              className="flex justify-center items-center w-full h-[128px] relative hover:opacity-70 transition-opacity duration-300 ease-in-out"
-              href="#"
-            >
-              <img
-                className="h-auto block w-auto max-w-[70%] max-h-[80px] h-auto"
-                src={src}
-                alt={alt}
-              />
-            </a>
-          </li>
-        ))}
-      </ul>
-    </section>
-  );
+			<ul className="flex flex-wrap justify-center items-center list-none">
+				{Object.entries(svgs).map(([ alt, src ]) => (
+					<li key={alt} className="w-[calc(50%-16px)] mb-[32px]">
+						<a
+							className="flex justify-center items-center w-full h-[128px] relative hover:opacity-70 transition-opacity duration-300 ease-in-out"
+							href="#"
+						>
+							<img className="h-auto block w-auto max-w-[70%] max-h-[80px]" src={src} alt={alt} />
+						</a>
+					</li>
+				))}
+			</ul>
+		</section>
+	);
 }
 
 // <li key={alt} className="">
