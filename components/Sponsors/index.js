@@ -31,7 +31,7 @@ function Sponsors() {
 
 			<ul className="flex flex-wrap justify-center items-center list-none">
 				{Object.entries(svgs).map(([ alt, src ]) => (
-					<li key={alt} className="w-[calc(50%-16px)] mb-[32px]">
+					<li key={alt} className="mb-[32px] w-[calc(50%-16px)] sm:w-[calc(33%-16px)]">
 						<a
 							className="flex justify-center items-center w-full h-[128px] relative hover:opacity-70 transition-opacity duration-300 ease-in-out"
 							href="#"
