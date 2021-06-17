@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@downwindcss/flex-center': ^1.0.2
-  '@downwindcss/postcss-tailwindcss-at-rules': ^0.0.1-alpha.3
+  '@downwindcss/postcss-tailwindcss-at-rules': ^0.0.1-alpha.6
   autoprefixer: ^10.2.6
   babel-plugin-superjson-next: ^0.3.0
   clsx: ^1.1.1
@@ -19,7 +19,7 @@ specifiers:
 
 dependencies:
   '@downwindcss/flex-center': 1.0.2
-  '@downwindcss/postcss-tailwindcss-at-rules': 0.0.1-alpha.3_postcss@8.3.4
+  '@downwindcss/postcss-tailwindcss-at-rules': 0.0.1-alpha.6_postcss@8.3.4
   clsx: 1.1.1
   install: 0.13.0
   next: 10.2.3_react-dom@17.0.1+react@17.0.1
@@ -98,8 +98,8 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
-  /@downwindcss/postcss-tailwindcss-at-rules/0.0.1-alpha.3_postcss@8.3.4:
-    resolution: {integrity: sha512-A21oeJtf4jip1PA6KH6s/oRmIyLgga6Ly9B1N1fTKfsLN0+waFnIqdUSnHoAG7Umgg2sa7e2AIgea5eDFwvxcg==}
+  /@downwindcss/postcss-tailwindcss-at-rules/0.0.1-alpha.6_postcss@8.3.4:
+    resolution: {integrity: sha512-3qPaJo2DvIePRfEh9knW2SxLqr42u/blc7lWDZhRze9dtTFo8X0huT+RLGa+LXHqLI53ZFem/tewQs4JIJ5fcQ==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       postcss: ^8.2.8
