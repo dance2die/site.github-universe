@@ -14,6 +14,7 @@ specifiers:
   react-dom: 17.0.1
   superjson: ^1.7.4
   tailwindcss: ^2.1.4
+  xregexp: ^5.0.2
   zustand: ^3.5.2
 
 dependencies:
@@ -33,6 +34,7 @@ devDependencies:
   postcss-import: 14.0.2_postcss@8.3.4
   superjson: 1.7.4
   tailwindcss: 2.1.4_505819627e86648d07c4e196a4237c15
+  xregexp: 5.0.2
 
 packages:
 
@@ -61,6 +63,14 @@ packages:
       chalk: 2.4.2
       js-tokens: 4.0.0
     dev: false
+
+  /@babel/runtime-corejs3/7.14.6:
+    resolution: {integrity: sha512-Xl8SPYtdjcMoCsIM4teyVRg7jIcgl8F2kRtoCcXuHzXswt9UxZCS6BzRo8fcnCuP6u2XtPgvyonmEPF57Kxo9Q==}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      core-js-pure: 3.14.0
+      regenerator-runtime: 0.13.7
+    dev: true
 
   /@babel/runtime/7.12.5:
     resolution: {integrity: sha512-plcc+hbExy3McchJCEQG3knOsuh3HH+Prx1P6cLIkET/0dLuQDEnrT+s27Axgc9bqfsmNUNHfscgMUdBpC9xfg==}
@@ -599,6 +609,11 @@ packages:
     dependencies:
       safe-buffer: 5.1.2
     dev: false
+
+  /core-js-pure/3.14.0:
+    resolution: {integrity: sha512-YVh+LN2FgNU0odThzm61BsdkwrbrchumFq3oztnE9vTKC4KS2fvnPmcx8t6jnqAyOTCTF4ZSiuK8Qhh7SNcL4g==}
+    requiresBuild: true
+    dev: true
 
   /core-util-is/1.0.2:
     resolution: {integrity: sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=}
@@ -1932,7 +1947,6 @@ packages:
 
   /regenerator-runtime/0.13.7:
     resolution: {integrity: sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==}
-    dev: false
 
   /resolve/1.20.0:
     resolution: {integrity: sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==}
@@ -2379,6 +2393,12 @@ packages:
 
   /wrappy/1.0.2:
     resolution: {integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=}
+    dev: true
+
+  /xregexp/5.0.2:
+    resolution: {integrity: sha512-JPNfN40YMNSDxZrahMrmtNH1QqPJp0/qNeEJM2nnOlhcBdfCCjekPYFV2OnwKxwvpEYglH1RBotbpRRaEuCG8Q==}
+    dependencies:
+      '@babel/runtime-corejs3': 7.14.6
     dev: true
 
   /xtend/4.0.2:

@@ -24,6 +24,7 @@
     "postcss": "^8.3.0",
     "postcss-import": "^14.0.2",
     "superjson": "^1.7.4",
-    "tailwindcss": "^2.1.4"
+    "tailwindcss": "^2.1.4",
+    "xregexp": "^5.0.2"
   }
 }
