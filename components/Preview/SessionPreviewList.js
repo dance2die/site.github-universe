@@ -35,7 +35,7 @@ function SessionPreviewList({ previewData, backgroundGradient }) {
 	return (
 		<div className="w-full h-52 flex items-center">
 			<span
-				className={cx('-ml-4 sm:-ml-5', { visible: scrollLeft > 0 }, { invisible: scrollLeft === 0 })}
+				className={cx('-ml-4 sm:-ml-6', { visible: scrollLeft > 0 }, { invisible: scrollLeft === 0 })}
 				onClick={scrollToLeft}
 			>
 				<LeftArrow />
