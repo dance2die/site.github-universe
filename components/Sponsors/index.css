@@ -1,5 +1,5 @@
 .sponsor-list {
-  @apply-group mb-[32px] w-[calc(50%-16px)] 
+  @apply-group mb-[32px] w-[calc(50%-16px)]
     sm:w-[calc(33%-16px)]
     md:w-[calc(25%-16px)]
     lg:w-[calc(20%-16px)]

@@ -26,7 +26,7 @@ const svgs = {
 
 function Sponsors() {
 	return (
-		<section className="bg-surface text-on-surface mt-12 mx-4">
+		<section className="bg-surface text-on-surface mt-12 mx-4 max-w-7xl">
 			<h3 className="text-center text-2xl mb-6 md:text-3xl">Thank you to our sponsors</h3>
 
 			<ul className="flex flex-wrap justify-center items-center list-none">
