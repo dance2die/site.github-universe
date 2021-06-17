@@ -1,0 +1,49 @@
+.session-preview {
+  --width: 100%;
+  --height: 100%;
+  --offset: 4px;
+  --background-gradient: red;
+
+  isolation: isolate;
+  background-color: transparent;
+  width: var(--width);
+  height: var(--height);
+  position: relative;
+}
+
+/* From https://githubuniverse.com/ */
+.session-preview::before {
+  content: '';
+  display: block;
+  position: absolute;
+
+  width: calc(var(--width) - var(--offset));
+  height: calc(var(--height) - var(--offset));
+  top: calc(var(--offset) / 2);
+  left: calc(var(--offset) / 2);
+
+  background: #000;
+
+  z-index: -1;
+}
+
+.session-preview::after {
+  content: '';
+  display: block;
+  position: absolute;
+
+  width: var(--width);
+  height: var(--height);
+  top: 0;
+  left: 0;
+
+  z-index: -3;
+  opacity: 0.5;
+
+  background: linear-gradient(var(--background-gradient));
+  transition: opacity 0.3s ease-in-out;
+}
+
+.session-preview:hover::after {
+  opacity: 1;
+}
