@@ -11,23 +11,25 @@ import Sponsors from '../components/Sponsors';
 import Footer from '../components/Footer';
 
 export default function Home() {
-  return (
-    <div>
-      <Head>
-        <title>Create Next App</title>
-      </Head>
+	return (
+		<div>
+			<Head>
+				<title>Create Next App</title>
+			</Head>
 
-      <main className="bg-surface">
-        <Appbar />
-        <Hero />
-        <Featured />
-        <DeveloperChannel />
-        <EnterpriseChannel />
-        <PlayChannel />
-        <Workshops />
-        <Sponsors />
-      </main>
-      <Footer />
-    </div>
-  );
+			<main className="bg-surface">
+				<Appbar />
+				<section className="lg:p-8">
+					<Hero />
+					<Featured />
+					<DeveloperChannel />
+					<EnterpriseChannel />
+					<PlayChannel />
+					<Workshops />
+					<Sponsors />
+				</section>
+			</main>
+			<Footer />
+		</div>
+	);
 }

@@ -1,4 +1,5 @@
-import SectionContainer from '../SectionContainer';
+import Container from '../Section/Container';
+import Title from '../Section/Title';
 import ViewAllButton from '../ViewAllButton';
 import EnterpriseChannelPreviewList from './EnterpriseChannelPreviewList';
 
@@ -6,13 +7,9 @@ const gradient = '92.05deg, #BCA1F7 12.09%, #E577B4 42.58%, #FF7170 84.96%';
 
 export default function EnterpriseChannel() {
 	return (
-		<SectionContainer>
+		<Container>
 			<header>
-				<h4 className="text-lg bg-clip-text text-transparent bg-gradient-to-r from-purple-300 to-red-400
-          inline-block
-          ">
-					Enterprise Channel
-				</h4>
+				<Title>Enterprise Channel</Title>
 				<p className="pt-4">
 					Hear from industry experts on transformation, security, scalability, and productivity and learn how
 					to build like the best.
@@ -22,6 +19,6 @@ export default function EnterpriseChannel() {
 				<ViewAllButton gradient={gradient} />
 			</div>
 			<EnterpriseChannelPreviewList backgroundGradient={gradient} />
-		</SectionContainer>
+		</Container>
 	);
 }
