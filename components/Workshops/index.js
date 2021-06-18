@@ -1,5 +1,6 @@
 import Container from '../Section/Container';
 import Title from '../Section/Title';
+import Description from '../Section/Description';
 import ViewAllButton from '../ViewAllButton';
 import WorkshopsPreviewList from './WorkshopsPreviewList';
 
@@ -10,10 +11,10 @@ export default function Workshops() {
 		<Container>
 			<header>
 				<Title>Workshops</Title>
-				<p className="pt-4">
+				<Description>
 					Work directly with GitHub experts on EcoSystems, Professional Services, and/or Security topics
 					during these two-hour, hands-on Workshops.
-				</p>
+				</Description>
 			</header>
 			<div className="mt-4">
 				<ViewAllButton gradient={gradient} />

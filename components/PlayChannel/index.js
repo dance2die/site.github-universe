@@ -1,5 +1,6 @@
 import Title from '../Section/Title';
 import Container from '../Section/Container';
+import Description from '../Section/Description';
 import ViewAllButton from '../ViewAllButton';
 import PlayChannelPreviewList from './PlayChannelPreviewList';
 
@@ -10,9 +11,9 @@ export default function PlayChannel() {
 		<Container>
 			<header>
 				<Title>Play Channel</Title>
-				<p className="pt-4">
+				<Description>
 					Entertaining performances, tutorials, and unexpected stories, all driven by code.
-				</p>
+				</Description>
 			</header>
 			<div className="mt-4">
 				<ViewAllButton gradient={gradient} />

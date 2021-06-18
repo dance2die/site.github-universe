@@ -1,5 +1,6 @@
 import Container from '../Section/Container';
 import Title from '../Section/Title';
+import Description from '../Section/Description';
 import ViewAllButton from '../ViewAllButton';
 import EnterpriseChannelPreviewList from './EnterpriseChannelPreviewList';
 
@@ -10,10 +11,10 @@ export default function EnterpriseChannel() {
 		<Container>
 			<header>
 				<Title>Enterprise Channel</Title>
-				<p className="pt-4">
+				<Description>
 					Hear from industry experts on transformation, security, scalability, and productivity and learn how
 					to build like the best.
-				</p>
+				</Description>
 			</header>
 			<div className="mt-4">
 				<ViewAllButton gradient={gradient} />

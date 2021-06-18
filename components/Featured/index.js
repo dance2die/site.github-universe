@@ -1,5 +1,6 @@
 import FeaturedSessionPreviewList from './FeaturedSessionPreviewList';
 import Container from '../Section/Container';
+import Description from '../Section/Description';
 import Title from '../Section/Title';
 
 export default function Featured() {
@@ -7,10 +8,10 @@ export default function Featured() {
 		<Container>
 			<header>
 				<Title>Featured</Title>
-				<p className="pt-4">
+				<Description>
 					Watch the opening day keynote, featured sessions and daily highlights for a snapshot of Unverse's
 					biggest moments
-				</p>
+				</Description>
 			</header>
 			<FeaturedSessionPreviewList />
 		</Container>
