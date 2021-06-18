@@ -10,7 +10,7 @@ export default function PlayChannel() {
 	return (
 		<Container>
 			<header>
-				<Title>Play Channel</Title>
+				<Title gradient={gradient}>Play Channel</Title>
 				<Description>
 					Entertaining performances, tutorials, and unexpected stories, all driven by code.
 				</Description>

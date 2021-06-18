@@ -10,7 +10,7 @@ export default function EnterpriseChannel() {
 	return (
 		<Container>
 			<header>
-				<Title>Enterprise Channel</Title>
+				<Title gradient={gradient}>Enterprise Channel</Title>
 				<Description>
 					Hear from industry experts on transformation, security, scalability, and productivity and learn how
 					to build like the best.

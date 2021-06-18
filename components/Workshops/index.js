@@ -10,7 +10,7 @@ export default function Workshops() {
 	return (
 		<Container>
 			<header>
-				<Title>Workshops</Title>
+				<Title gradient={gradient}>Workshops</Title>
 				<Description>
 					Work directly with GitHub experts on EcoSystems, Professional Services, and/or Security topics
 					during these two-hour, hands-on Workshops.

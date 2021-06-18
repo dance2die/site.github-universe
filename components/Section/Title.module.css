@@ -1,0 +1,6 @@
+.gradient {
+  display: inline-block;
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(var(--gradient-value));
+}
